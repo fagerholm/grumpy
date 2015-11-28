@@ -1,14 +1,17 @@
 package no.jaf.wildfly.resources.person;
 
 
+import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Application;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 
-@Path("person")
-public class PersonResource {
+@Path("/person")
+@ApplicationPath("/resources")
+public class PersonResource extends Application{
 
     @Context
     private UriInfo context;
