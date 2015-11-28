@@ -1,17 +1,12 @@
 package no.jaf.wildfly.resources.person;
 
-import javax.ejb.Stateful;
+import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.persistence.criteria.Order;
-import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.Collection;
 
-@Stateful
+@Stateless
 public class PersonRepository {
 
     @PersistenceContext(unitName = "primary")
