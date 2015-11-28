@@ -1,8 +1,19 @@
 package no.jaf.wildfly.resources.person;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Version;
+
+@Entity
 public class Person {
 
+    @Id
+    @GeneratedValue
     private long id;
+    @Version
+    private long version;
+
     private String firstName;
     private String lastName;
 
@@ -28,5 +39,13 @@ public class Person {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public long getVersion() {
+        return version;
+    }
+
+    public void setVersion(long version) {
+        this.version = version;
     }
 }
