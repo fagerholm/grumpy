@@ -14,7 +14,7 @@ import java.util.Collection;
 @Stateful
 public class PersonRepository {
 
-    @PersistenceContext
+    @PersistenceContext(unitName = "primary")
     EntityManager em;
 
     Person person;
