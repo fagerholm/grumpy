@@ -7,6 +7,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
 @Path("/person")
@@ -20,9 +21,14 @@ public class PersonResource extends Application{
     }
 
     @GET
-    @Produces("text/html")
-    public String getHtml() {
-        return "<html lang=\"en\"><body><h1>Hello, World!!</h1></body></html>";
+    @Produces({MediaType.APPLICATION_JSON})
+    public Person getHtml() {
+
+        Person person = new Person();
+        person.setId(1);
+        person.setFirstName("Jon");
+        person.setLastName("Fagerholm");
+        return person;
     }
 
 }
