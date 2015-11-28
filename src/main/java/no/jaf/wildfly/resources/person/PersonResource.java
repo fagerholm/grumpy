@@ -35,7 +35,7 @@ public class PersonResource extends Application{
     public Collection<Person> getHtml() {
 
         Vote vote = new Vote();
-        vote.setId(42);
+        //vote.setId(42);
         vote.setVoter(3);
         vote.setColor(2);
         vote.setLooks(4);
