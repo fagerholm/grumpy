@@ -64,6 +64,10 @@ public class PositionResource extends Application {
     public Collection<Position> getPositions() {
         System.out.println("Er i resource");
 
+        Collection<Position> positions = positionRepository.getAll();
+
+        System.out.println("Positions: " + positions);
+
         return positionRepository.getAll();
     }
 
