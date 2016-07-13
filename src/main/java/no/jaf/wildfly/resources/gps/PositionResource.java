@@ -26,34 +26,20 @@ public class PositionResource extends Application {
     public PositionResource() {
     }
 
-/*
-    @PUT
-    @Path("/{user}")
-    public Response uploadCoordinates(@PathParam("user") String user, @QueryParam("lat") String latitude, @QueryParam("lon") String longitude, @QueryParam("t") String millis ) throws IOException {
-
-        Position position = new Position();
-        position.setLatitude(latitude);
-        position.setLongitude(longitude);
-        position.setMillis(millis);
-        position.setUser(user);
-
-        em.persist(position);
-
-        return Response.status(200).build();
-    }
-*/
 
     @GET
     @Path("/report/{user}")
     public Response uploadCoordinates(@PathParam("user") String user, @QueryParam("lat") String latitude, @QueryParam("lon") String longitude, @QueryParam("t") String millis ) throws IOException {
 
-        Position position = new Position();
-        position.setLatitude(latitude);
-        position.setLongitude(longitude);
-        position.setMillis(millis);
-        position.setUser(user);
+        if(user!= null && latitude != null && longitude != null && millis != null) {
+            Position position = new Position();
+            position.setLatitude(latitude);
+            position.setLongitude(longitude);
+            position.setMillis(millis);
+            position.setUser(user);
 
-        positionRepository.persist(position);
+            positionRepository.persist(position);
+        }
 
         return Response.status(200).build();
     }
@@ -70,22 +56,5 @@ public class PositionResource extends Application {
 
         return positionRepository.getAll();
     }
-
-    /*
-    @GET
-    @Path("/report")
-    @Produces({MediaType.APPLICATION_JSON})
-    public Response getPositions(@QueryParam("lat") String latitude, @QueryParam("lon") String longitude, @QueryParam("t") String millis) {
-
-        Position position = new Position();
-        position.setLatitude(latitude);
-        position.setLongitude(longitude);
-        position.setMillis(millis);
-        position.setUser("test");
-
-        positionRepository.persist(position);
-        return Response.ok().build();
-    }
-    */
 
 }
