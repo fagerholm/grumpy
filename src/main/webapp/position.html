@@ -55,7 +55,7 @@
                     infowindow.setContent("Name: " + name + "\n\nGPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng() + "\n\nTime: " + date);
                     infowindow.open(map, marker);
                 }
-            })(marker, i));
+            })(marker, n));
 
             map.panTo(new google.maps.LatLng(response[n].latitude, response[n].longitude));
         }
