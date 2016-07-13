@@ -12,11 +12,15 @@
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
 
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 2,
-        center: new google.maps.LatLng(62.457171, 17.350953),
+    var latlng = new google.maps.LatLng(lat, lon);
+    var myOptions = {
+        zoom: 12,
+        center: latlng,
+        mapTypeControl: false,
+        navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
         mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
+    };
+    var map = new google.maps.Map(document.getElementById("map"), myOptions);
 
     var infowindow = new google.maps.InfoWindow();
 
