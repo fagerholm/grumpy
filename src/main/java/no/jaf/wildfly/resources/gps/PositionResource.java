@@ -1,5 +1,6 @@
 package no.jaf.wildfly.resources.gps;
 
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
@@ -17,6 +18,10 @@ public class PositionResource extends Application {
 
     @PersistenceContext(unitName = "primary")
     EntityManager em;
+
+    @Inject
+    PositionRepository positionRepository;
+
 
     public PositionResource() {
     }
@@ -57,7 +62,7 @@ public class PositionResource extends Application {
         position.setMillis(millis);
         position.setUser("test");
 
-        em.persist(position);
+        positionRepository.persist(position);
         return Response.ok().build();
     }
 
