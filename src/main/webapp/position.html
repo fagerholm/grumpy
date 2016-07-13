@@ -39,27 +39,25 @@
 
     function handleData(response)
     {
-        var n;
-        for(n=0; n<response.length; n++)
-        {
-            var name = response[n].user;
-            var lat = response[n].latitude;
-            var lon = response[n].longitude;
-            var myLatLng = new google.maps.LatLng(lat,lon);
-            var marker = new google.maps.Marker({
-                position: myLatLng,
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, n;
+
+        for(n=0; n<response.length; n++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(response[n].latitude, response[n].longitude),
                 map: map,
-                title: name,
-                zIndex: 1
+                title: response[n].user
             });
 
-            var date = new Date(response[n].millis);
-            google.maps.event.addListener(marker, "click", function(e) {
-                alert("Name: " + name + "\n\nGPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng() + "\n\nTime: " + date);
-            });
+            google.maps.event.addListener(marker, 'click', (function(marker, n) {
+                return function() {
+                    infowindow.setContent("Name: " + name + "\n\nGPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng() + "\n\nTime: " + date);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
 
-            map.panTo(myLatLng);
-
+            map.panTo(new google.maps.LatLng(response[n].latitude, response[n].longitude));
         }
     }
 
