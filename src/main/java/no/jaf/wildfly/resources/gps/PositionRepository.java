@@ -1,7 +1,5 @@
 package no.jaf.wildfly.resources.gps;
 
-import no.jaf.wildfly.resources.person.Person;
-
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -14,8 +12,6 @@ public class PositionRepository {
     @PersistenceContext(unitName = "primary")
     EntityManager em;
 
-    Person person;
-
     public void persist(Position position) {
 
         em.persist(position);
@@ -23,6 +19,7 @@ public class PositionRepository {
 
     public Collection<Position> getAll() {
 
+        System.out.println("Er i repository");
         Query query = em.createQuery("SELECT e FROM Position e");
         return (Collection<Position>) query.getResultList();
 

@@ -44,7 +44,7 @@ public class PositionResource extends Application {
 */
 
     @GET
-    @Path("/{user}")
+    @Path("/report/{user}")
     public Response uploadCoordinates(@PathParam("user") String user, @QueryParam("lat") String latitude, @QueryParam("lon") String longitude, @QueryParam("t") String millis ) throws IOException {
 
         Position position = new Position();
@@ -62,6 +62,7 @@ public class PositionResource extends Application {
     @Path("/positions")
     @Produces({MediaType.APPLICATION_JSON})
     public Collection<Position> getPositions() {
+        System.out.println("Er i resource");
 
         return positionRepository.getAll();
     }
