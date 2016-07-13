@@ -44,7 +44,7 @@ public class PositionResource extends Application {
 */
 
     @GET
-    @Path("/{user}")
+    @Path("/report/{user}")
     public Response uploadCoordinates(@PathParam("user") String user, @QueryParam("lat") String latitude, @QueryParam("lon") String longitude, @QueryParam("t") String millis ) throws IOException {
 
         Position position = new Position();
