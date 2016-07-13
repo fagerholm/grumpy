@@ -12,6 +12,8 @@
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
 
+    var latlng = new google.maps.LatLng(lat, lon);
+
     var myOptions = {
         zoom: 12,
         center: new google.maps.LatLng(62.457171, 17.350953),
@@ -58,6 +60,9 @@
             google.maps.event.addListener(marker, "click", function(e) {
                 alert("GPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng());
             });
+
+            map.panTo(myLatLng);
+
         }
     }
 
