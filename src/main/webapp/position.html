@@ -50,7 +50,7 @@
                 title: response[n].user
             });
 
-            var date = new Date(response[n].millis);
+            var date = new Date(parseInt(response[n].millis));
 
             google.maps.event.addListener(marker, 'click', (function(marker, n) {
                 return function() {
@@ -58,7 +58,7 @@
                     infowindow.setContent('<div><strong>' + response[n].user + '</strong><br><br>' +
                             'Latitude: ' + marker.getPosition().lat() + '<br>' +
                             'Longitude: ' + marker.getPosition().lng() + '<br><br>' +
-                            'Time: ' + response[n].millis + '</div>');
+                            'Time: ' + date + '</div>');
                     infowindow.open(map, marker);
                 }
             })(marker, n));
