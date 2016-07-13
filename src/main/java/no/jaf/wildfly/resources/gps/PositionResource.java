@@ -8,8 +8,8 @@ import javax.ws.rs.core.*;
 import java.io.IOException;
 import java.util.Collection;
 
-//@Path("/report")
-@ApplicationPath("/gps")
+@Path("/gps")
+@ApplicationPath("/resources")
 public class PositionResource extends Application {
 
     @Context
