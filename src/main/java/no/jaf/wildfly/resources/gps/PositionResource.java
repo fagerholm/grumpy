@@ -26,7 +26,7 @@ public class PositionResource extends Application {
     public PositionResource() {
     }
 
-
+/*
     @PUT
     @Path("/{user}")
     public Response uploadCoordinates(@PathParam("user") String user, @QueryParam("lat") String latitude, @QueryParam("lon") String longitude, @QueryParam("t") String millis ) throws IOException {
@@ -38,6 +38,22 @@ public class PositionResource extends Application {
         position.setUser(user);
 
         em.persist(position);
+
+        return Response.status(200).build();
+    }
+*/
+
+    @GET
+    @Path("/{user}")
+    public Response uploadCoordinates(@PathParam("user") String user, @QueryParam("lat") String latitude, @QueryParam("lon") String longitude, @QueryParam("t") String millis ) throws IOException {
+
+        Position position = new Position();
+        position.setLatitude(latitude);
+        position.setLongitude(longitude);
+        position.setMillis(millis);
+        position.setUser(user);
+
+        positionRepository.persist(position);
 
         return Response.status(200).build();
     }
