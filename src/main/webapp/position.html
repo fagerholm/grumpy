@@ -55,8 +55,10 @@
                 title: name,
                 zIndex: 1
             });
+
+            var date = new Date(response[n].millis);
             google.maps.event.addListener(marker, "click", function(e) {
-                alert("GPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng());
+                alert("Name: " + name + "\n\nGPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng() + "\n\nTime: " + date);
             });
 
             map.panTo(myLatLng);
