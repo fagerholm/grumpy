@@ -24,4 +24,13 @@ public class PositionRepository {
         return (Collection<Position>) query.getResultList();
 
     }
+
+
+    public Collection<Position> getLatestPositions() {
+
+        Query query = em.createQuery("SELECT e FROM Position e WHERE e.millis = (select max(e1.millis) from Position e1 where e1.user = e.user)");
+        return (Collection<Position>) query.getResultList();
+
+    }
+
 }

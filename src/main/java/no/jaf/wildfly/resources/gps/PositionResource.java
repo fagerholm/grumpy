@@ -48,13 +48,18 @@ public class PositionResource extends Application {
     @Path("/positions")
     @Produces({MediaType.APPLICATION_JSON})
     public Collection<Position> getPositions() {
-        System.out.println("Er i resource");
-
-        Collection<Position> positions = positionRepository.getAll();
-
-        System.out.println("Positions: " + positions);
 
         return positionRepository.getAll();
     }
+
+    @GET
+    @Path("/latestpositions")
+    @Produces({MediaType.APPLICATION_JSON})
+    public Collection<Position> getLatestPositions() {
+
+        return positionRepository.getLatestPositions();
+    }
+
+
 
 }
