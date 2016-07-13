@@ -54,7 +54,7 @@
 
             google.maps.event.addListener(marker, 'click', (function(marker, n) {
                 return function() {
-                    infowindow.setContent("Name: " + name + "\n\nGPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng() + "\n\nTime: " + date);
+                    infowindow.setContent("Name: " + response[n].user + "\n\nGPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng() + "\n\nTime: " + response[n].millis);
                     infowindow.open(map, marker);
                 }
             })(marker, n));
