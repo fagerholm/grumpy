@@ -20,4 +20,11 @@ public class PositionRepository {
 
         em.persist(position);
     }
+
+    public Collection<Position> getAll() {
+
+        Query query = em.createQuery("SELECT e FROM Position e");
+        return (Collection<Position>) query.getResultList();
+
+    }
 }

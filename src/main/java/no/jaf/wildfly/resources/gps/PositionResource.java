@@ -47,8 +47,7 @@ public class PositionResource extends Application {
     @Produces({MediaType.APPLICATION_JSON})
     public Collection<Position> getPositions() {
 
-        Query query = em.createQuery("SELECT e FROM Position e");
-        return (Collection<Position>) query.getResultList();
+        return positionRepository.getAll();
     }
 
     @GET
