@@ -33,9 +33,6 @@
         var marker, i;
 
         var url = "http://wildfly-fagerholm.rhcloud.com/resources/gps/latestpositions";
-        var name;
-        var lat;
-        var lon;
 
         $.getJSON(url, function (response) {handleData(response)});
     }
@@ -45,9 +42,9 @@
         var n;
         for(n=0; n<response.length; n++)
         {
-            name = response[n].user;
-            lat = response[n].latitude;
-            lon = response[n].longitude;
+            var name = response[n].user;
+            var lat = response[n].latitude;
+            var lon = response[n].longitude;
             var myLatLng = new google.maps.LatLng(lat,lon);
             var marker = new google.maps.Marker({
                 position: myLatLng,
