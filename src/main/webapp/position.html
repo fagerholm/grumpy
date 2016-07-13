@@ -50,6 +50,8 @@
                 title: response[n].user
             });
 
+            var date = new Date(response[n].millis);
+
             google.maps.event.addListener(marker, 'click', (function(marker, n) {
                 return function() {
                     infowindow.setContent("Name: " + name + "\n\nGPS coordinates:\nLatitude: " + marker.getPosition().lat() + "\nLongitude: " + marker.getPosition().lng() + "\n\nTime: " + date);
@@ -58,6 +60,8 @@
             })(marker, n));
 
             map.panTo(new google.maps.LatLng(response[n].latitude, response[n].longitude));
+
+
         }
     }
 
