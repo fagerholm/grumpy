@@ -7,7 +7,7 @@
             type="text/javascript"></script>
 </head>
 <body>
-<div id="map" style="width: 800px; height: 600px"></div>
+<div id="map" style="width: 100%"></div>
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
@@ -50,21 +50,18 @@
                 title: response[n].user
             });
 
-            var date = new Date(parseInt(response[n].millis));
-
             google.maps.event.addListener(marker, 'click', (function(marker, n) {
                 return function() {
 
                     infowindow.setContent('<div><strong>' + response[n].user + '</strong><br><br>' +
                             'Latitude: ' + marker.getPosition().lat() + '<br>' +
                             'Longitude: ' + marker.getPosition().lng() + '<br><br>' +
-                            'Time: ' + date + '</div>');
+                            'Time: ' + new Date(parseInt(response[n].millis)) + '</div>');
                     infowindow.open(map, marker);
                 }
             })(marker, n));
 
             map.panTo(new google.maps.LatLng(response[n].latitude, response[n].longitude));
-
 
         }
     }
