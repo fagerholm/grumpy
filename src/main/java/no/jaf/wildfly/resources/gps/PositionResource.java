@@ -30,6 +30,7 @@ public class PositionResource extends Application {
         position.setLatitude(latitude);
         position.setLongitude(longitude);
         position.setMillis(millis);
+        position.setUser(user);
 
         em.persist(position);
 

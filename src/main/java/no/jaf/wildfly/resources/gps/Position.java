@@ -19,6 +19,7 @@ public class Position {
     private long latitude;
     private long longitude;
     private long millis;
+    private String user;
 
     public long getId() {
         return id;
@@ -58,5 +59,13 @@ public class Position {
 
     public void setMillis(long millis) {
         this.millis = millis;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
     }
 }
