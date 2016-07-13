@@ -16,9 +16,9 @@ public class Position {
     @Version
     private long version;
 
-    private long latitude;
-    private long longitude;
-    private long millis;
+    private String latitude;
+    private String longitude;
+    private String millis;
     private String user;
 
     public long getId() {
@@ -37,27 +37,27 @@ public class Position {
         this.version = version;
     }
 
-    public long getLatitude() {
+    public String getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(long latitude) {
+    public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
 
-    public long getLongitude() {
+    public String getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(long longitude) {
+    public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 
-    public long getMillis() {
+    public String getMillis() {
         return millis;
     }
 
-    public void setMillis(long millis) {
+    public void setMillis(String millis) {
         this.millis = millis;
     }
 
