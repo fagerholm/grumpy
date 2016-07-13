@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <title>Sporing av enheter</title>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"
+    <script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCp0g7sK8eOSjfCeJsFh7zC2GutBznWKrI"
             type="text/javascript"></script>
 </head>
 <body>
@@ -40,11 +40,11 @@
     function handleData(response)
     {
         var n;
-        for(n=0; n<response.positions.length; n++)
+        for(n=0; n<response.length; n++)
         {
-            name = response.positions[n].name;
-            lat = response.positions[n].latitude;
-            lon = response.positions[n].longitude;
+            name = response[n].name;
+            lat = response[n].latitude;
+            lon = response[n].longitude;
             var myLatLng = new google.maps.LatLng(lat,lon);
             var marker = new google.maps.Marker({
                 position: myLatLng,
