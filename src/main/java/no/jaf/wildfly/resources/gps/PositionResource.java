@@ -46,4 +46,19 @@ public class PositionResource extends Application {
         return (Collection<Position>) query.getResultList();
     }
 
+    @GET
+    @Path("/report")
+    @Produces({MediaType.APPLICATION_JSON})
+    public Response getPositions(@QueryParam("lat") Long latitude, @QueryParam("lon") Long longitude, @QueryParam("t") Long millis) {
+
+        Position position = new Position();
+        position.setLatitude(latitude);
+        position.setLongitude(longitude);
+        position.setMillis(millis);
+        position.setUser("test");
+
+        em.persist(position);
+        return Response.ok().build();
+    }
+
 }
