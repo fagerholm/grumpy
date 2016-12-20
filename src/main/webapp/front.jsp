@@ -5,11 +5,12 @@
 </head>
 <body>
 <h1>Hyttetur - Resurser!</h1>
-<a href="http://wildfly-fagerholm.rhcloud.com/resources/enrollments">Alle påmeldte</a>
-<a href="http://wildfly-fagerholm.rhcloud.com/resources/enrollments">Navneliste - Tidlig buss</a>
-<a href="http://wildfly-fagerholm.rhcloud.com/resources/enrollments">Navneliste - Sen buss</a>
-<a href="http://wildfly-fagerholm.rhcloud.com/resources/enrollments">Navneliste - Egen bil</a>
-<a href="/resources/enrollment/potentialActivityParticipants">Navneliste - Potensielle deltagere på aktiviteter</a>
-
+<ul>
+    <li><a href="/resources/enrollments">Alle påmeldte</a></li>
+    <li><a href="/resources/enrollments/earlybus">Navneliste - Tidlig buss</a></li>
+    <li><a href="/resources/enrollments/latebus">Navneliste - Sen buss</a></li>
+    <li><a href="/resources/enrollments/car">Navneliste - Egen bil</a></li>
+    <li><a href="/resources/enrollments/potentialActivityParticipants">Navneliste - Potensielle deltagere på aktiviteter</a></li>
+</ul>
 </body>
 </html>
