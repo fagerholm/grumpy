@@ -7,6 +7,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Path("/enrollments")
 @ApplicationPath("/resources")
@@ -20,6 +22,17 @@ public class EnrollmentResource {
     public List<Gjest> getHtml() {
 
         return createGuestList();
+    }
+
+    @Path("earlybus")
+    @GET
+    @Produces({MediaType.APPLICATION_JSON})
+    public List<Gjest> getEarlyBusParticipants() {
+
+        List<Gjest> guests = createGuestList();
+        Stream<Gjest> personsEarlyBus = guests.stream().filter(p -> p.getTransport().equals(Transport.BUSS_TIDLIG));
+
+        return guests.stream().filter(p -> p.getTransport().equals(Transport.BUSS_TIDLIG)).collect(Collectors.toList());
     }
 
     private List<Gjest> createGuestList() {
