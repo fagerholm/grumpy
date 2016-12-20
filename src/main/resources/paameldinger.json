@@ -1,0 +1,948 @@
+[
+  {
+    "fornavn": "Jørgen",
+    "etternavn": "Ringen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Revehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Ørjan",
+    "etternavn": "Johansen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Revehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Aasmund",
+    "etternavn": "Nordstoga",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Revehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Fredrik",
+    "etternavn": "Bjørnøy",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Revehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Dejan",
+    "etternavn": "Maric",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Revehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Thomas",
+    "etternavn": "Johansen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Jervehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Knut-Erik",
+    "etternavn": "Johnsen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Jervehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Marius",
+    "etternavn": "Torsrud",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Jervehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Jon André",
+    "etternavn": "Fagerholm",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Jervehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Håvard",
+    "etternavn": "Andersen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Jervehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Kristian",
+    "etternavn": "Haugene",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Ulvehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Stian",
+    "etternavn": "Neverdal",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Ulvehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Espen",
+    "etternavn": "Gudmundsen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Ulvehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Magnus",
+    "etternavn": "Brurås",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Ulvehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Lars",
+    "etternavn": "Skjæveland",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Ulvehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Adriano",
+    "etternavn": "Stewart",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Gaupehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "David",
+    "etternavn": "Emanuelsen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Gaupehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Ahmad",
+    "etternavn": "Hamadeh",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Gaupehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "David",
+    "etternavn": "Eriksson",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Gaupehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Ramesh",
+    "etternavn": "Shiraddi",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Gaupehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Denis",
+    "etternavn": "Ligonja",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Bjørnehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Jacob",
+    "etternavn": "Meidell",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Bjørnehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Jan F.",
+    "etternavn": "Langtangen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Bjørnehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Espen",
+    "etternavn": "Moen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Bjørnehiet",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Artur",
+    "etternavn": "Barczynski",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Einar",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Giridhar C.",
+    "etternavn": "Srinivasan",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Einar",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Morten",
+    "etternavn": "Kristoffersen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Einar",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Nicola",
+    "etternavn": "Muneratto",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Einar",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Anders",
+    "etternavn": "Langseth",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Halldis",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Lars Henrik",
+    "etternavn": "Nordli",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Halldis",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Kristian",
+    "etternavn": "Haugen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Halldis",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Carl Erik",
+    "etternavn": "Hauge",
+    "transport": "BIL",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Halldis",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Helene",
+    "etternavn": "Kristiansen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Gjermund",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Simone",
+    "etternavn": "Andersson",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Gjermund",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Nina",
+    "etternavn": "Kylstad",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Gjermund",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Gry",
+    "etternavn": "Skårbø",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Gjermund",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Anniken",
+    "etternavn": "Nordby",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Ingrid",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Hilde",
+    "etternavn": "Bakkemyr",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Ingrid",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Ekaterina",
+    "etternavn": "Orlova",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Ingrid",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Jenny",
+    "etternavn": "Le",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Ingrid",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Igor",
+    "etternavn": "Erokhin",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Sigurd",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Ingleiv",
+    "etternavn": "Johansen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Sigurd",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Petter B.",
+    "etternavn": "Hannevold",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Sigurd",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Aleksander",
+    "etternavn": "Nybakk",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Sigurd",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Karl Jørgen",
+    "etternavn": "Overå",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Hallgeir",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Henning",
+    "etternavn": "Ringerike",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Hallgeir",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Martin",
+    "etternavn": "Almvik",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Hallgeir",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Hans Fredrik",
+    "etternavn": "Brastad",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Hallgeir",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Vijay",
+    "etternavn": "Shanmugappirabu",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Elling",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Daniel",
+    "etternavn": "Meinecke",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Elling",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Stefan",
+    "etternavn": "Jøines",
+    "transport": "BIL",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Elling",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Johan E.",
+    "etternavn": "Larsson",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Elling",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Anita",
+    "etternavn": "Opheim",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Kåre",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Anisha",
+    "etternavn": "Kejriwal",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Kåre",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Liv Sissel",
+    "etternavn": "Vestvik",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Kåre",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Karin",
+    "etternavn": "Rustenberg",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Kåre",
+      "lokasjon": "Høydehuset 2.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Trine",
+    "etternavn": "Grønvold",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Klatrer'n",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Kosovare",
+    "etternavn": "Olluri",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Klatrer'n",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Berit",
+    "etternavn": "Hatten",
+    "transport": "BIL",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Klatrer'n",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Unni",
+    "etternavn": "Vørrang",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Klatrer'n",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Bogdan",
+    "etternavn": "Osyka",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Klatrer'n 2",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Shahariar K.",
+    "etternavn": "Bhuiyan",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Klatrer'n 2",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Greger Siem",
+    "etternavn": "Knudsen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Klatrer'n 2",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Andreas",
+    "etternavn": "Næss",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Klatrer'n 2",
+      "lokasjon": "Høydehuset 1.etg",
+      "antallSenger": 4
+    }
+  },
+  {
+    "fornavn": "Aleksander",
+    "etternavn": "Gjermundsen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Kvisten",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 2
+    }
+  },
+  {
+    "fornavn": "Delshad",
+    "etternavn": "Faraj",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Kvisten",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 2
+    }
+  },
+  {
+    "fornavn": "Tonny",
+    "etternavn": "Gundersen",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Kammerset",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 1
+    }
+  },
+  {
+    "fornavn": "Therese",
+    "etternavn": "Børter",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Trevet",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 2
+    }
+  },
+  {
+    "fornavn": "Inger",
+    "etternavn": "Hansen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Trevet",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 2
+    }
+  },
+  {
+    "fornavn": "Morten",
+    "etternavn": "Meyer",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Vogga",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 1
+    }
+  },
+  {
+    "fornavn": "Ivar",
+    "etternavn": "Gjessing",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Stuggua",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 3
+    }
+  },
+  {
+    "fornavn": "Jan Erik",
+    "etternavn": "Skogsfjord",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Stuggua",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 3
+    }
+  },
+  {
+    "fornavn": "Erik",
+    "etternavn": "Hidle",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Stuggua",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 3
+    }
+  },
+  {
+    "fornavn": "Tone",
+    "etternavn": "Algrøy",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "NEI",
+    "rom": {
+      "navn": "Stallen",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 3
+    }
+  },
+  {
+    "fornavn": "Radha",
+    "etternavn": "Rajagopalan",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Stallen",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 3
+    }
+  },
+  {
+    "fornavn": "Heidi-Christin",
+    "etternavn": "Bernhoff-Jacobsen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Stallen",
+      "lokasjon": "Høydehuset 3.etg",
+      "antallSenger": 3
+    }
+  },
+  {
+    "fornavn": "Joachim",
+    "etternavn": "Lund",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Kvisten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Ramon",
+    "etternavn": "Arellano",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Kvisten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Erik",
+    "etternavn": "Gjerdrum",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Kvisten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Gaute",
+    "etternavn": "Kristiansen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Kvisten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Daniel",
+    "etternavn": "Ham",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Kvisten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Ismar",
+    "etternavn": "Slomic",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Risbiten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Tor Arne",
+    "etternavn": "Rudlende",
+    "transport": "BUSS_TIDLIG",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Risbiten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Vidar",
+    "etternavn": "Methi",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "JA",
+    "rom": {
+      "navn": "Risbiten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Rafael",
+    "etternavn": "Trzaskowski",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Risbiten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  },
+  {
+    "fornavn": "Vidar Lie",
+    "etternavn": "Johansen",
+    "transport": "BUSS_SEN",
+    "aktivitetsdeltagelse": "KANSKJE",
+    "rom": {
+      "navn": "Risbiten",
+      "lokasjon": "Bygget på andre siden av tunet",
+      "antallSenger": 5
+    }
+  }
+]
