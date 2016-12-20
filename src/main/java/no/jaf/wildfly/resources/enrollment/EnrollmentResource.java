@@ -27,12 +27,43 @@ public class EnrollmentResource {
     @Path("earlybus")
     @GET
     @Produces({MediaType.APPLICATION_JSON})
-    public List<Gjest> getEarlyBusParticipants() {
+    public List<String> getEarlyBusParticipants() {
 
-        List<Gjest> guests = createGuestList();
-        Stream<Gjest> personsEarlyBus = guests.stream().filter(p -> p.getTransport().equals(Transport.BUSS_TIDLIG));
+        return onlyNames(createGuestList().stream().filter(p -> p.getTransport().equals(Transport.BUSS_TIDLIG)).collect(Collectors.toList()));
+    }
 
-        return guests.stream().filter(p -> p.getTransport().equals(Transport.BUSS_TIDLIG)).collect(Collectors.toList());
+    @Path("latebus")
+    @GET
+    @Produces({MediaType.APPLICATION_JSON})
+    public List<String> getLateBusParticipants() {
+
+        return onlyNames(createGuestList().stream().filter(p -> p.getTransport().equals(Transport.BUSS_SEN)).collect(Collectors.toList()));
+    }
+
+    @Path("car")
+    @GET
+    @Produces({MediaType.APPLICATION_JSON})
+    public List<String> getCarParticipants() {
+
+        return onlyNames(createGuestList().stream().filter(p -> p.getTransport().equals(Transport.BIL)).collect(Collectors.toList()));
+    }
+
+    @Path("potentialActivityParticipants")
+    @GET
+    @Produces({MediaType.APPLICATION_JSON})
+    public List<String> getActivityParticipants() {
+
+        return onlyNames(createGuestList().stream().filter(p -> p.getAktivitetsdeltagelse().equals(Aktivitetsdeltagelse.JA) || p.getAktivitetsdeltagelse().equals(Aktivitetsdeltagelse.KANSKJE)).collect(Collectors.toList()));
+    }
+
+    private List<String> onlyNames(List<Gjest> guests) {
+        List<String> nameList = new ArrayList<>();
+
+        for(Gjest guest : guests) {
+            nameList.add(guest.getEtternavn() + ", " + guest.getFornavn());
+        }
+
+        return nameList;
     }
 
     private List<Gjest> createGuestList() {
