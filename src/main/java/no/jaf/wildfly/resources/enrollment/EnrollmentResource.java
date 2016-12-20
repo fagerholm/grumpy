@@ -18,7 +18,7 @@ public class EnrollmentResource {
     }
 
     @GET
-    @Produces({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON + ";charset=utf-8"})
     public List<Gjest> getHtml() {
 
         return createGuestList();
@@ -26,7 +26,7 @@ public class EnrollmentResource {
 
     @Path("earlybus")
     @GET
-    @Produces({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON + ";charset=utf-8"})
     public List<String> getEarlyBusParticipants() {
 
         return onlyNames(createGuestList().stream().filter(p -> p.getTransport().equals(Transport.BUSS_TIDLIG)).collect(Collectors.toList()));
@@ -34,7 +34,7 @@ public class EnrollmentResource {
 
     @Path("latebus")
     @GET
-    @Produces({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON + ";charset=utf-8"})
     public List<String> getLateBusParticipants() {
 
         return onlyNames(createGuestList().stream().filter(p -> p.getTransport().equals(Transport.BUSS_SEN)).collect(Collectors.toList()));
@@ -42,7 +42,7 @@ public class EnrollmentResource {
 
     @Path("car")
     @GET
-    @Produces({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON + ";charset=utf-8"})
     public List<String> getCarParticipants() {
 
         return onlyNames(createGuestList().stream().filter(p -> p.getTransport().equals(Transport.BIL)).collect(Collectors.toList()));
@@ -50,7 +50,7 @@ public class EnrollmentResource {
 
     @Path("potentialActivityParticipants")
     @GET
-    @Produces({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON + ";charset=utf-8"})
     public List<String> getActivityParticipants() {
 
         return onlyNames(createGuestList().stream().filter(p -> p.getAktivitetsdeltagelse().equals(Aktivitetsdeltagelse.JA) || p.getAktivitetsdeltagelse().equals(Aktivitetsdeltagelse.KANSKJE)).collect(Collectors.toList()));
