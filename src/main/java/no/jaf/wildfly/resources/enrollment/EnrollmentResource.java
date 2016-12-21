@@ -183,11 +183,10 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Unni", "Vørrang", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, klatrer ));
 
         // Klatrer'n 2
-        gjester.add(new Gjest("Bogdan", "Osyka", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, klatrer2 ));
-        gjester.add(new Gjest("Shahariar K.", "Bhuiyan", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, klatrer2 ));
-        gjester.add(new Gjest("Greger Siem", "Knudsen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, klatrer2 ));
-        gjester.add(new Gjest("Andreas", "Næss", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, klatrer2 ));
-
+        gjester.add(new Gjest("Tone", "Algrøy", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, klatrer2 ));
+        gjester.add(new Gjest("Radha", "Rajagopalan", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, klatrer2 ));
+        gjester.add(new Gjest("Heidi-Christin", "Bernhoff-Jacobsen", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, klatrer2 ));
+        gjester.add(new Gjest("Therese", "Lundgren", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, klatrer2 ));
 
         // Kvisten
         gjester.add(new Gjest("Aleksander", "Gjermundsen", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, kvisten ));
@@ -209,9 +208,9 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Erik", "Hidle", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, stuggua ));
 
         // Stallen
-        gjester.add(new Gjest("Tone", "Algrøy", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, stallen ));
-        gjester.add(new Gjest("Radha", "Rajagopalan", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, stallen ));
-        gjester.add(new Gjest("Heidi-Christin", "Bernhoff-Jacobsen", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, stallen ));
+        gjester.add(new Gjest("Shahariar K.", "Bhuiyan", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, stallen ));
+        gjester.add(new Gjest("Greger Siem", "Knudsen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, stallen ));
+        gjester.add(new Gjest("Andreas", "Næss", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, stallen ));
 
         // Kvilsten
         gjester.add(new Gjest("Joachim", "Lund", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
