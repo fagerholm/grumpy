@@ -122,11 +122,11 @@ public class EnrollmentResource {
         gjester.add(new Gjest("David", "Eriksson", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, gaupehiet ));
         gjester.add(new Gjest("Ramesh", "Shiraddi", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, gaupehiet ));
 
-        // Bjørnehiet
-        gjester.add(new Gjest("Denis", "Ligonja", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, bjørnehiet ));
-        gjester.add(new Gjest("Jacob", "Meidell", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, bjørnehiet ));
-        gjester.add(new Gjest("Jan F.", "Langtangen", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, bjørnehiet ));
-        gjester.add(new Gjest("Espen", "Moen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, bjørnehiet ));
+        // Elling
+        gjester.add(new Gjest("Denis", "Ligonja", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, elling ));
+        gjester.add(new Gjest("Jacob", "Meidell", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, elling ));
+        gjester.add(new Gjest("Jan F.", "Langtangen", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, elling ));
+        gjester.add(new Gjest("Espen", "Moen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, elling ));
 
         // Einar
         gjester.add(new Gjest("Artur", "Barczynski", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, einar ));
@@ -164,11 +164,12 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Martin", "Almvik", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, hallgeir ));
         gjester.add(new Gjest("Hans Fredrik", "Brastad", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, hallgeir ));
 
-        // Elling
-        gjester.add(new Gjest("Vijay", "Shanmugappirabu", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, elling ));
-        gjester.add(new Gjest("Daniel", "Meinecke", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, elling ));
-        gjester.add(new Gjest("Stefan", "Jøines", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, elling ));
-        gjester.add(new Gjest("Johan E.", "Larsson", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, elling ));
+        // Bjørnehiet
+        gjester.add(new Gjest("Vijay", "Shanmugappirabu", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, bjørnehiet ));
+        gjester.add(new Gjest("Daniel", "Meinecke", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, bjørnehiet ));
+        gjester.add(new Gjest("Stefan", "Jøines", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, bjørnehiet ));
+        gjester.add(new Gjest("Johan E.", "Larsson", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, bjørnehiet ));
+        gjester.add(new Gjest("Tommy", "Ballestad", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, bjørnehiet ));
 
         // Kåre
         gjester.add(new Gjest("Anita", "Opheim", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kaare ));
@@ -213,7 +214,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Andreas", "Næss", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, stallen ));
 
         // Kvilsten
-        gjester.add(new Gjest("Joachim", "Lund", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
+        //gjester.add(new Gjest("Joachim", "Lund", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
         gjester.add(new Gjest("Ramon", "Arellano", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
         gjester.add(new Gjest("Erik", "Gjerdrum", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
         gjester.add(new Gjest("Gaute", "Kristiansen", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
