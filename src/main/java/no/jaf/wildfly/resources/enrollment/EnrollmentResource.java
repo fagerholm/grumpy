@@ -184,7 +184,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Unni", "Vørrang", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, klatrer ));
 
         // Klatrer'n 2
-        gjester.add(new Gjest("Tone", "Algrøy", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, klatrer2 ));
+        //gjester.add(new Gjest("Tone", "Algrøy", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, klatrer2 ));
         gjester.add(new Gjest("Radha", "Rajagopalan", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, klatrer2 ));
         gjester.add(new Gjest("Heidi-Christin", "Bernhoff-Jacobsen", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, klatrer2 ));
         gjester.add(new Gjest("Therese", "Lundgren", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, klatrer2 ));
