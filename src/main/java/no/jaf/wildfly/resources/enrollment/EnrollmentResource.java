@@ -217,7 +217,7 @@ public class EnrollmentResource {
         //gjester.add(new Gjest("Joachim", "Lund", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
         gjester.add(new Gjest("Ramon", "Arellano", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
         gjester.add(new Gjest("Erik", "Gjerdrum", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
-        gjester.add(new Gjest("Gaute", "Kristiansen", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
+        //gjester.add(new Gjest("Gaute", "Kristiansen", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
         gjester.add(new Gjest("Daniel", "Ham", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
 
         // Risbiten
