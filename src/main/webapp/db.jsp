@@ -16,7 +16,7 @@ Context initialContext = new InitialContext();
 DataSource datasource = (DataSource)initialContext.lookup("java:jboss/datasources/MySQLDS");
 result = datasource.getConnection();
 Statement stmt = result.createStatement() ;
-String query = "select first_name firstname, last_name lastname from person;" ;
+String query = "select latitude, longitude from position;" ;
 ResultSet rs = stmt.executeQuery(query) ;
 while (rs.next()) {
 out.println(rs.getString(1) + " " + rs.getString(2) + "<br />");
