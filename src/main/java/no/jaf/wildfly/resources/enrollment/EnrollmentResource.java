@@ -132,6 +132,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Artur", "Barczynski", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, einar ));
         gjester.add(new Gjest("Giridhar C.", "Srinivasan", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, einar ));
         //gjester.add(new Gjest("Morten", "Kristoffersen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, einar ));
+        gjester.add(new Gjest("Ivar Olav", "Tryti", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, einar ));
         gjester.add(new Gjest("Nicola", "Muneratto", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, einar ));
 
         // Halldis
@@ -168,7 +169,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Vijay", "Shanmugappirabu", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, bjornehiet ));
         gjester.add(new Gjest("Daniel", "Meinecke", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, bjornehiet ));
         gjester.add(new Gjest("Stefan", "Jøines", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, bjornehiet ));
-        gjester.add(new Gjest("Johan E.", "Larsson", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, bjornehiet ));
+        gjester.add(new Gjest("Johan E.", "Larsson", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, bjornehiet ));
         gjester.add(new Gjest("Tommy", "Ballestad", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, bjornehiet ));
 
         // Kåre
