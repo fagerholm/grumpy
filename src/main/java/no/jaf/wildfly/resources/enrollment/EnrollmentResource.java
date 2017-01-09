@@ -89,7 +89,7 @@ public class EnrollmentResource {
         Rom vogga = new Rom("Vogga", "Høydehuset 3.etg", 1);
         Rom stuggua = new Rom("Stuggua", "Høydehuset 3.etg", 3);
         Rom stallen = new Rom("Stallen", "Høydehuset 3.etg", 3);
-        Rom kvilsten = new Rom("Kvisten", "Bygget på andre siden av tunet", 5);
+        Rom kvilsten = new Rom("Kvilsten", "Bygget på andre siden av tunet", 5);
         Rom risbiten = new Rom("Risbiten", "Bygget på andre siden av tunet", 5);
 
         List<Gjest> gjester = new ArrayList<Gjest>();
