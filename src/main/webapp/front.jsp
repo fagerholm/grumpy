@@ -11,6 +11,7 @@
             <li><a href="/resources/enrollments/latebus">Navneliste - Sen buss</a></li>
             <li><a href="/resources/enrollments/car">Navneliste - Egen bil</a></li>
             <li><a href="/resources/enrollments/potentialActivityParticipants">Navneliste - Potensielle deltagere på aktiviteter</a></li>
+            <li><a href="https://murmuring-stream-80944.herokuapp.com/api/update">Oppdatering av App-databasen</a></li>
         </ul>
     </body>
 </html>

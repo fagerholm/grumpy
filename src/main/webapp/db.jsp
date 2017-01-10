@@ -22,7 +22,7 @@ while (rs.next()) {
 out.println(rs.getString(1) + " " + rs.getString(2) + "<br />");
 }
 } catch (Exception ex) {
-out.println("Exception: " + ex + ex.getMessage());
+out.println("Exception: " + ex.getMessage());
 }
 %>
 </body>
