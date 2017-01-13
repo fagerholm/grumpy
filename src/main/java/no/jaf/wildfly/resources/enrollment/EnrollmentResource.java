@@ -144,7 +144,7 @@ public class EnrollmentResource {
         // Gjermund
         gjester.add(new Gjest("Helene", "Kristiansen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, gjermund ));
         gjester.add(new Gjest("Simone", "Andersson", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, gjermund ));
-        gjester.add(new Gjest("Nina", "Kylstad", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, gjermund ));
+        //gjester.add(new Gjest("Nina", "Kylstad", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, gjermund ));
         gjester.add(new Gjest("Gry", "Skårbø", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, gjermund ));
 
         // Ingrid
@@ -167,7 +167,7 @@ public class EnrollmentResource {
 
         // Bjørnehiet
         gjester.add(new Gjest("Vijay", "Shanmugappirabu", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, bjornehiet ));
-        gjester.add(new Gjest("Daniel", "Meinecke", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, bjornehiet ));
+        gjester.add(new Gjest("Daniel", "Meinecke", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, bjornehiet ));
         gjester.add(new Gjest("Stefan", "Jøines", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, bjornehiet ));
         gjester.add(new Gjest("Johan E.", "Larsson", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, bjornehiet ));
         gjester.add(new Gjest("Tommy", "Ballestad", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, bjornehiet ));
@@ -182,7 +182,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Trine", "Grønvold", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, klatrer ));
         gjester.add(new Gjest("Kosovare", "Olluri", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, klatrer ));
         gjester.add(new Gjest("Berit", "Hatten", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, klatrer ));
-        gjester.add(new Gjest("Unni", "Vørrang", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, klatrer ));
+        gjester.add(new Gjest("Unni", "Vørrang", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, klatrer ));
 
         // Klatrer'n 2
         //gjester.add(new Gjest("Tone", "Algrøy", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, klatrer2 ));
