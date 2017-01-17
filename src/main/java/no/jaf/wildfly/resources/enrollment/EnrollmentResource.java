@@ -209,7 +209,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Anita", "Opheim", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
         gjester.add(new Gjest("Anisha", "Kejriwal", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
         gjester.add(new Gjest("Karin", "Rustenberg", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, kvilsten ));
-        gjester.add(new Gjest("Radha", "Rajagopalan", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
+        //gjester.add(new Gjest("Radha", "Rajagopalan", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
         gjester.add(new Gjest("Heidi-Christin", "Bernhoff-Jacobsen", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
 
         // Risbiten
