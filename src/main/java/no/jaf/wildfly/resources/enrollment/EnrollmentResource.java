@@ -201,7 +201,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Erik", "Hidle", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, stuggua ));
 
         // Stallen
-        gjester.add(new Gjest("Shahariar K.", "Bhuiyan", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, stallen ));
+        gjester.add(new Gjest("Shahariar K.", "Bhuiyan", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, stallen ));
         gjester.add(new Gjest("Greger Siem", "Knudsen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, stallen ));
         gjester.add(new Gjest("Andreas", "Næss", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, stallen ));
 
