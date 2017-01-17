@@ -143,7 +143,7 @@ public class EnrollmentResource {
         // Ingrid
         gjester.add(new Gjest("Anniken", "Nordby", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, ingrid ));
         gjester.add(new Gjest("Hilde", "Bakkemyr", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, ingrid ));
-        gjester.add(new Gjest("Ekaterina", "Orlova", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, ingrid ));
+        gjester.add(new Gjest("Ekaterina", "Orlova", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, ingrid ));
         gjester.add(new Gjest("Jenny", "Le", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, ingrid ));
 
         // Sigurd
