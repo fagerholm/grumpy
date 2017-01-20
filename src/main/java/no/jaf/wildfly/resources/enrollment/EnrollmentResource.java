@@ -126,7 +126,7 @@ public class EnrollmentResource {
         // Einar
         gjester.add(new Gjest("Artur", "Barczynski", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, einar ));
         gjester.add(new Gjest("Giridhar C.", "Srinivasan", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, einar ));
-        gjester.add(new Gjest("Ivar Olav", "Tryti", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, einar ));
+        gjester.add(new Gjest("Ivar Olav", "Tryti", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, einar ));
         gjester.add(new Gjest("Nicola", "Muneratto", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, einar ));
 
         // Halldis
