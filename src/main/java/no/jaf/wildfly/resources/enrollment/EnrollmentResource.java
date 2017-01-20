@@ -131,7 +131,7 @@ public class EnrollmentResource {
 
         // Halldis
         gjester.add(new Gjest("Anders", "Langseth", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, halldis ));
-        gjester.add(new Gjest("Lars Henrik", "Nordli", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, halldis ));
+        //gjester.add(new Gjest("Lars Henrik", "Nordli", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, halldis ));
         gjester.add(new Gjest("Kristian", "Haugen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, halldis ));
         gjester.add(new Gjest("Carl Erik", "Hauge", Transport.BIL, Aktivitetsdeltagelse.NEI, halldis ));
 
@@ -162,7 +162,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Vijay", "Shanmugappirabu", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, bjornehiet ));
         gjester.add(new Gjest("Daniel", "Meinecke", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, bjornehiet ));
         gjester.add(new Gjest("Stefan", "Jøines", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, bjornehiet ));
-        gjester.add(new Gjest("Johan E.", "Larsson", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, bjornehiet ));
+        gjester.add(new Gjest("Johan E.", "Larsson", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, bjornehiet ));
         gjester.add(new Gjest("Tommy", "Ballestad", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, bjornehiet ));
 
         // Kåre
@@ -210,7 +210,7 @@ public class EnrollmentResource {
         gjester.add(new Gjest("Anisha", "Kejriwal", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, kvilsten ));
         gjester.add(new Gjest("Karin", "Rustenberg", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, kvilsten ));
         //gjester.add(new Gjest("Radha", "Rajagopalan", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
-        gjester.add(new Gjest("Heidi-Christin", "Bernhoff-Jacobsen", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
+        //gjester.add(new Gjest("Heidi-Christin", "Bernhoff-Jacobsen", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kvilsten ));
 
         // Risbiten
         gjester.add(new Gjest("Ismar", "Slomic", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, risbiten ));
